@@ -625,5 +625,21 @@ src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"/>
       }
     }, 8000);
   </script>
+  <script>
+
+function comprar() {
+
+  fbq('track', 'InitiateCheckout');
+
+  setTimeout(function() {
+
+    window.location.href =
+    "https://SEUCHECKOUT.com";
+
+  }, 300);
+
+}
+
+</script>
 </body>
 </html>
